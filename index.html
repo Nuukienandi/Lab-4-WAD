@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration & Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <h1>Student Registration</h1>
+  
+  <form id="regForm" novalidate>
+    <label for="first">First Name *</label>
+    <input type="text" id="first" name="first" required>
+    <small class="error" id="err-first"></small>
+
+    <label for="last">Last Name *</label>
+    <input type="text" id="last" name="last" required>
+    <small class="error" id="err-last"></small>
+
+    <label for="email">Email *</label>
+    <input type="email" id="email" name="email" required>
+    <small class="error" id="err-email"></small>
+  
+    <label for="prog">Programme *</label>
+    <select id="prog" name="prog" required>
+      <option value="">-- Select Programme --</option>
+      <option value="Computer Science">Computer Science</option>
+      <option value="Procurement">Procurement</option>
+      <option value="Engineering">Engineering</option>
+      <option value="Economics">Economics</option>
+      <option value="Medicine">Medicine</option>
+    </select>
+    <small class="error" id="err-prog"></small>
+
+    <fieldset>
+      <legend>Year of Study *</legend>
+      <label><input type="radio" name="year" value="1" required> 1</label>
+      <label><input type="radio" name="year" value="2"> 2</label>
+      <label><input type="radio" name="year" value="3"> 3</label>
+      <label><input type="radio" name="year" value="4"> 4</label>
+    </fieldset>
+    <small class="error" id="err-year"></small>
+
+    <label for="interests">Interests</label>
+    <input type="text" id="interests" name="interests" placeholder="AI, Web, Gaming">
+
+    <label for="photo">Photo URL</label>
+    <input type="url" id="photo" name="photo" placeholder="https://example.com/photo.jpg">
+
+    <div aria-live="polite" class="sr" id="live"></div>
+    <button type="submit">Add Student</button>
+  </form>
+
+  <section id="cards"></section>
+
+  <h2>Summary Table</h2>
+  <label for="search">Search Students:</label>
+  <input type="text" id="search" onkeyup="filterStudents()" placeholder="Search by name, programme, year or interests...">
+
+  <table id="summary" border="1">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Programme</th>
+        <th>Year</th>
+        <th>Interests</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
