@@ -16,18 +16,13 @@ This project is a registration and profile management system built using HTML, C
 Features
 
 User Registration Form: Users can enter their details through a clean, accessible form.
-
 Inline Validation: Instant feedback highlights invalid fields and provides helpful error messages.
-
 Profile Cards: Each submission generates a dynamic profile card showing the user’s information.
-
 Summary Table: All profiles are listed in a table that stays in sync with the cards.
-
 Remove Functionality: Users can delete a profile, which removes both the card and its table row.
-
 Data Persistence: Profiles are saved in LocalStorage, so data remains after refreshing the page.
-
 Responsive Design: Works well on both mobile and desktop screens. 
 
+#GitHub Repo
 https://github.com/hilyanuukula/Lab-4-WAD
 
