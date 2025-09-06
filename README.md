@@ -24,5 +24,5 @@ Data Persistence: Profiles are saved in LocalStorage, so data remains after refr
 Responsive Design: Works well on both mobile and desktop screens. 
 
 #GitHub Repo
-https://github.com/Nuukienandi/Lab-4-WAD
+https://github.com/Nuukienandi/Lab-4-WAD 
 
