@@ -11,7 +11,7 @@ Project Description
 
 This project is a registration and profile management system built using HTML, CSS, and JavaScript. It allows users to fill out a registration form, submit their details, and immediately see a profile card generated for them. All submitted profiles are also listed in a summary table, and users can remove any profile, which deletes both the card and the corresponding table row.
 
-The project emphasizes accessibility and user-friendly design, ensuring that the form is easy to navigate, error messages are clear, and all interactions are screen-reader friendly. Additionally, profiles are saved in LocalStorage, so data is preserved even after refreshing the page. The layout is fully responsive, working well on both desktop and mobile devices.
+
 
 Features
 
@@ -28,4 +28,6 @@ Remove Functionality: Users can delete a profile, which removes both the card an
 Data Persistence: Profiles are saved in LocalStorage, so data remains after refreshing the page.
 
 Responsive Design: Works well on both mobile and desktop screens. 
+
+https://github.com/nandinuukie/Lab-4-WAD
 
