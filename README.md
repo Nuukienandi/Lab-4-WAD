@@ -27,5 +27,5 @@ Remove Functionality: Users can delete a profile, which removes both the card an
 
 Data Persistence: Profiles are saved in LocalStorage, so data remains after refreshing the page.
 
-Responsive Design: Works well on both mobile and desktop screens.
+Responsive Design: Works well on both mobile and desktop screens. 
 
